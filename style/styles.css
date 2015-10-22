@@ -1,0 +1,47 @@
+body {
+  background: #111;
+}
+.container {
+  background-color: lightgray;
+}
+.jumbotron {
+  background: url(../images/groningen.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.jumbotron img {
+  display: block;
+  margin: 3em auto;
+  width: 20%;
+  height: auto;
+  z-index: 10000;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+.jumbotron a {
+  color: lightgray;
+  text-decoration: underline;
+}
+.jumbotron a:hover {
+  text-decoration: none;
+}
+.mid-container {
+  padding-right: 0;
+  text-align: center;
+}
+.bottom-container {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+
+.video-container {
+  height: 25em;
+  margin-right: 0;
+  padding-right: 0;
+}
+.video-container iframe {
+  right: 0;
+}
