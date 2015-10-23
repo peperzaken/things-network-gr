@@ -36,7 +36,6 @@ body {
   padding-right: 0;
   text-align: left;
 }
-
 div.map {
   margin-left: -15px;
   margin-right: -15px;
@@ -44,7 +43,6 @@ div.map {
 div.map iframe {
   border: none;
 }
-
 .video-container {
   height: 25em;
   margin-right: 0;
@@ -52,4 +50,9 @@ div.map iframe {
 }
 .video-container iframe {
   right: 0;
+}
+
+.credits p {
+  font-size: 12px;
+  font-style: italic
 }
