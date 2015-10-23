@@ -37,6 +37,14 @@ body {
   text-align: left;
 }
 
+div.map {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+div.map iframe {
+  border: none;
+}
+
 .video-container {
   height: 25em;
   margin-right: 0;
